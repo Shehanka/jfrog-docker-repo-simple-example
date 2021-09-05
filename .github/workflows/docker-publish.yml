@@ -8,7 +8,7 @@ jobs:
     runs-on:
       - ubuntu-latest
     env:
-      SERVICE_NAME: chamodshehanka.jfrog.io/docker
+      SERVICE_NAME: chamodshehanka.jfrog.io/docker/my-docker-image
       CONTAINER_REGISTRY: chamodshehanka.jfrog.io
     steps:
       - uses: actions/checkout@v2
