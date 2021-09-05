@@ -19,7 +19,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ${{ env.CONTAINER_REGISTRY }}
-          username: chamodshehanka
+          username: chamodp@wso2.com
           password: ${{ secrets.JFROG_PASSWORD }}
       - name: Build the Docker image
         run: docker build --tag ${SERVICE_NAME}:latest --file Dockerfile .
